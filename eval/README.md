@@ -1,5 +1,6 @@
-# Welcome to the codebase for: Worse than Random? An Embarrassingly Simple Probing Evaluation of Large Multimodal Models in Medical VQA!
-
+# Evaluation Guidelines
+We provide detailed instructions for evaluation. 
+To execute our evaluation script, please ensure that the structure of your model outputs is the same as ours.
 
 # Get Started
 
@@ -12,14 +13,14 @@ Move the inference scripts under the **./scripts/inference** to their correspond
 
 For API-based models, GPT-4V and Gemini, set up your API key in the provided inference scripts.
 
-## Provided Dataset
+## Categorized Evaluation
 
-**ProbMed_vqa.json** : 57,132 question-answer pairs spanning three modalities (X-ray, MRI, and CT scan) and four organs (abdomen, brain, chest, and spine). Before using, reorganize the QA pairs according to their image modality and organs.
-├── ct-scan_abdomen
-│   └── question.json
-├── ct-scan_abdomen
-│   └── question.json
-**ablation_RAD-VQA_vqa.json**: 236 question-answer pairs constructed from 118 test instances where the answer is "yes" out of 272 closed-ended question-answers pairs within RAD-VQA test set.
+After downloading our [dataset](https://huggingface.co/datasets/rippleripple/ProbMed), reorganize the questions by their modality-organ combination under different folders.
+
+├── ct-scan_abdomen \
+│   └── question.json \
+├── ct-scan_abdomen \
+│   └── question.json \
 
 ## Model Inference
 
