@@ -13,86 +13,29 @@ We introduce the <b>Probing Evaluation for Medical Diagnosis (ProbMed)</b> datas
 
 ## Dataset Creation
 
-MMMU was created to challenge multimodal models with tasks that demand college-level subject knowledge and deliberate reasoning, pushing the boundaries of what these models can achieve in terms of expert-level perception and reasoning. Please refer to our huggingface [**🤗 Dataset**](https://huggingface.co/datasets/MMMU/MMMU/) for more details.
+ProbMed was created to rigorously evaluate LMMs’ readiness for real-life diagnostic tasks, particularly under adversarial conditions. Please refer to our huggingface [**🤗 Dataset**](https://huggingface.co/datasets/rippleripple/ProbMed) for more details.
 
 ## Evaluation
 Please refer to our [eval](eval)
  folder for more details.
 
-## 🏆 Mini-Leaderboard
-| Model                          | Val (900) | Test (10.5K) |
-|--------------------------------|:---------:|:------------:|
-| Expert (Best)                  |   88.6    |      -       |
-| Expert (Medium)                |   82.6    |      -       |
-| Expert (Worst)                 |   76.2    |      -       |
-| GPT-4o*                        | **69.1**  |      -       |
-| Gemini 1.5 Pro*                |   59.4    |      -       |
-| Gemini 1.0 Ultra*              |   59.4    |      -       |
-| Claude 3 Opus*                 |   59.4    |      -       |
-| GPT-4V(ision) (Playground)     |   56.8    |   **55.7**   |
-| Reka Core*                     |   56.3    |      -       |
-| Gemini 1.5 Flash*              |   56.1    |      -       |
-| SenseChat-Vision-0423-Preview* |   54.6    |     50.3     |
-| Reka Flash*                    |   53.3    |      -       |
-| Claude 3 Sonnet*               |   53.1    |      -       |
-| HPT Pro*                       |   52.0    |      -       |
-| VILA1.5*                       |   51.9    |     46.9     |
-| Qwen-VL-MAX*                   |   51.4    |     46.8     |
-| InternVL-Chat-V1.2*            |   51.6    |     46.2     |
-| Skywork-VL*                    |   51.4    |     46.2     |
-| LLaVA-1.6-34B*                 |   51.1    |     44.7     |
-| Claude 3 Haiku*                |   50.2    |      -       |
-| Adept Fuyu-Heavy*              |   48.3    |      -       |
-| Gemini 1.0 Pro*                |   47.9    |      -       |
-| Marco-VL-Plus*                 |   46.2    |     44.3     |
-| Yi-VL-34B*                     |   45.9    |     41.6     |
-| Qwen-VL-PLUS*                  |   45.2    |     40.8     |
-| HPT Air*                       |   44.0    |      -       |
-| Reka Edge*                     |   42.8    |      -       |
-| Marco-VL*                      |   41.2    |     40.4     |
-| OmniLMM-12B*                   |   41.1    |     40.4     |
-| Weitu-VL-1.0-15B*              |     -     |     38.4     |
-| InternLM-XComposer2-VL*        |   43.0    |     38.2     |
-| Yi-VL-6B*                      |   39.1    |     37.8     |
-| InfiMM-Zephyr-7B*              |   39.4    |     35.5     |
-| InternVL-Chat-V1.1*            |   39.1    |     35.3     |
-| SVIT*                          |   38.0    |     34.1     |
-| MiniCPM-V*                     |   37.2    |     34.1     |
-| MiniCPM-V-2*                   |   37.1    |      -       |
-| Emu2-Chat*                     |   36.3    |     34.1     |
-| BLIP-2 FLAN-T5-XXL             |   35.4    |     34.0     |
-| InstructBLIP-T5-XXL            |   35.7    |     33.8     |
-| LLaVA-1.5-13B                  |   36.4    |     33.6     |
-| Bunny-3B*                      |   38.2    |     33.0     |
-| Qwen-VL-7B-Chat                |   35.9    |     32.9     |
-| SPHINX*                        |   32.9    |     32.9     |
-| mPLUG-OWL2*                    |   32.7    |     32.1     |
-| BLIP-2 FLAN-T5-XL              |   34.4    |     31.0     |
-| InstructBLIP-T5-XL             |   32.9    |     30.6     |
-| Gemini Nano2*                  |   32.6    |      -       |
-| CogVLM                         |   32.1    |     30.1     |
-| Otter                          |   32.2    |     29.1     |
-| LLaMA-Adapter2-7B              |   29.8    |     27.7     |
-| MiniGPT4-Vicuna-13B            |   26.8    |     27.6     |
-| Adept Fuyu-8B                  |   27.9    |     27.4     |
-| Kosmos2                        |   24.4    |     26.6     |
-| OpenFlamingo2-9B               |   28.7    |     26.3     |
-| Frequent Choice                |   22.1    |     23.9     |
-| Random Choice                  |   26.8    |     25.8     |
-
+## 🏆 Leaderboard
+| Model           | Modality | Organ | Abnormality | Condition/Finding | Position | 
+|-----------------|:--------:|:-----:|:-----------:|:-----------------:|:--------:|
+| Random Choice   |  25.00	  | 25.00	| 50.00	      | 35.67	            | 36.48    |
+|-----------------|:--------:|:-----:|:-----------:|:-----------------:|:--------:|
+| GPT4V           |   92.50	 | 71.71	| 53.30	      | 35.19	            | 22.32    |
+| Gemini 1.5 Pro  |   96.47	 | 75.69	| 62.59	      | 27.92	            | 17.17    |
+| CheXagent       |   96.47	 | 75.69	| 62.59	| 27.92	| 17.17 |
+| LLaVA-Med       |   5.49	  | 32.98	| 38.76	| 20.39	| 5.37  |
+| MiniGPT-v2      |   3.25	  | 76.29	| 50.09	| 15.23	| 8.05  |
+| LLaVA-v1.6 (7B) |   6.77	  | 80.70	| 46.18	| 3.57	 | 1.07  |
+| LLaVA-v1 (7B)   |   25.28	 | 40.53	| 50.00	| 0.34	 | 0.10  |
 *: results provided by the authors.
 
-
-🎯 **We have released a full suite comprising 150 development samples and 900 validation samples. However, the 10,500 test questions are available without their answers.** Use the development set for few-shot/in-context learning, and the validation set for debugging models, selecting hyperparameters, and quick evaluations. The answers and explanations for the test set questions are withheld. You can submit your model's predictions for the **test set** on **[EvalAI](https://eval.ai/web/challenges/challenge-page/2179/overview)**.
-
-## Disclaimers
-The guidelines for the annotators emphasized strict compliance with copyright and licensing rules from the initial data source, specifically avoiding materials from websites that forbid copying and redistribution. 
-Should you encounter any data samples potentially breaching the copyright or licensing regulations of any site, we encourage you to [contact](#contact) us. Upon verification, such samples will be promptly removed.
-
 ## Contact
-- Xiang Yue: xiangyue.work@gmail.com
-- Yu Su: su.809@osu.edu
-- Wenhu Chen: wenhuchen@uwaterloo.ca
+- Qianqi Yan: qyan79@ucsc.edu
+- Xin Eric Wang: xwang366@ucsc.edu
 
 ## Citation
 
