@@ -17,10 +17,10 @@ For API-based models, GPT-4V and Gemini, set up your API key in the provided inf
 
 After downloading our [dataset](https://huggingface.co/datasets/rippleripple/ProbMed), reorganize the questions by their modality-organ combination under different folders.
 
-├── ct-scan_abdomen \
-│   └── question.json \
-├── ct-scan_abdomen \
-│   └── question.json \
+├── ct-scan_abdomen
+│   └── question.json
+├── ct-scan_abdomen
+│   └── question.json
 
 ## Model Inference
 
