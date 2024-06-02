@@ -20,8 +20,15 @@ After downloading our [dataset](https://huggingface.co/datasets/rippleripple/Pro
 ```
 ct-scan_abdomen
 ├── question.json
-ct-scan_abdomen
+ct-scan_brain
 ├── question.json
+ct-scan_chest
+├── question.json
+ct-scan_spine
+├── question.json
+mri_abdomen
+├── question.json
+...
 ```
 
 ## Model Inference
