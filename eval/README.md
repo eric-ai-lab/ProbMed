@@ -22,7 +22,7 @@ mri_abdomen
 ## Model Inference
 
 Clone the official repo of open-sourced models into the following folder:
-* LLaVA [[repo]](https://github.com/haotian-liu/LLaVA)
+* LLaVAv1, v1.6 [[repo]](https://github.com/haotian-liu/LLaVA)
 * LLaVA-Med [[repo]](https://github.com/microsoft/LLaVA-Med)
 * MiniGPTv2 [[repo]](https://github.com/Vision-CAIR/MiniGPT-4)
 * CheXagent [[repo]](https://github.com/Stanford-AIMI/CheXagent)
