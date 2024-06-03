@@ -1,6 +1,6 @@
 # ProbMed
 
-[**🌐 Homepage**](https://jackie-2000.github.io/probmed.github.io/) | [**🤗 Dataset**](https://huggingface.co/datasets/rippleripple/ProbMed) | [**🤗 Paper**](https://github.com/eric-ai-lab/ProbMed/) | [**📖 arXiv**](https://github.com/eric-ai-lab/ProbMed/) | [**GitHub**](https://github.com/eric-ai-lab/ProbMed/)
+[**🌐 Homepage**](https://jackie-2000.github.io/probmed.github.io/) | [**🤗 Dataset**](https://huggingface.co/datasets/rippleripple/ProbMed) | [**🤗 Paper**](https://arxiv.org/pdf/2405.20421) | [**📖 arXiv**](https://arxiv.org/abs/2405.20421) | [**GitHub**](https://github.com/eric-ai-lab/ProbMed/)
 
 
 This repo contains the evaluation code for the paper "[Worse than Random? An Embarrassingly Simple Probing Evaluation of Large Multimodal Models in Medical VQA]([https://arxiv.org/pdf/2311.16502.pdf](https://github.com/eric-ai-lab/ProbMed/))"
