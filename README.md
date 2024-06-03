@@ -39,5 +39,12 @@ Please refer to our [eval](eval)
 
 **BibTeX:**
 ```bibtex
-#TODO
+@misc{yan2024worse,
+      title={Worse than Random? An Embarrassingly Simple Probing Evaluation of Large Multimodal Models in Medical VQA}, 
+      author={Qianqi Yan and Xuehai He and Xiang Yue and Xin Eric Wang},
+      year={2024},
+      eprint={2405.20421},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
 ```
