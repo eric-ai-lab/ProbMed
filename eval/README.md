@@ -22,4 +22,4 @@ After setting up, run inference.sh to get model outputs on the question files.
 
 ## Get Evaluation results and scores
 
-After getting the output, run score.py to get scores for all models.
+After getting the output, run calculate_score.py to get scores for all models.
