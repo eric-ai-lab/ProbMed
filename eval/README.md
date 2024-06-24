@@ -25,20 +25,21 @@ After setting up, run inference.sh to get model outputs on the question files.
 After getting the output, run calculate_score.py to get scores for all models.
 
 Your folder structure should look like this:
+
 project-root\
 ├── LLaVA\
-│   └── ...
-├── LLaVA-Med
-│   └── ...
-└── ...
-│
-├── probmed.json
-├── response_file
-│   └── llava_v1.json
-│   └── llavamed.json
-│   └── xxx.json
-├── ablation
-│   └── ablation.json
-│   └── llava_v1.json
-│   └── llavamed.json
-│   └── xxx.json
+│   └── ...\
+├── LLaVA-Med\
+│   └── ...\
+└── ...\
+│\
+├── probmed.json\
+├── response_file\
+│   └── llava_v1.json\
+│   └── llavamed.json\
+│   └── xxx.json\
+├── ablation\
+│   └── ablation.json\
+│   └── llava_v1.json\
+│   └── llavamed.json\
+│   └── xxx.json\
