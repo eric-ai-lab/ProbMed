@@ -25,8 +25,8 @@ After setting up, run inference.sh to get model outputs on the question files.
 After getting the output, run calculate_score.py to get scores for all models.
 
 Your folder structure should look like this:
-project-root
-├── LLaVA
+project-root\
+├── LLaVA\
 │   └── ...
 ├── LLaVA-Med
 │   └── ...
